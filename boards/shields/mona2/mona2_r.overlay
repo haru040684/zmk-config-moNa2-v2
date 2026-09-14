@@ -52,7 +52,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        res-cpi = <608>;   // 600 → 608로 수정 (드라이버 최소 허용값)
+        res-cpi = <950>;   // 600 → 608로 수정 (드라이버 최소 허용값)
     };
 };
 
